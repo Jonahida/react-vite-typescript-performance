@@ -7,6 +7,7 @@ This repository contains two projects implementing the same simple blog page. Th
 
 # Project Descriptions
 
+
 ## 1. react-app | React
 A blog project implemented with React only.
 
@@ -14,6 +15,14 @@ A blog project implemented with React only.
 ## 2. vite-test-app | React + TypeScript App with Vite
 A blog project implemented with React, TypeScript, and Vite.
 
+
+# Note:
+
+Remember to install the addtional libraries:
+
+```bash
+npm install
+```
 
 # Load Time Comparison Results
 
