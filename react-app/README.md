@@ -10,23 +10,22 @@ This setup establishes a foundational structure for constructing a React applica
 
 
 # Project Setup
-## Commands Used to Create the Project:
+## Run the project:
 
 ```bash
-npx create-react-app my-app
 cd my-app
+npm install
 ```
 
 ## Run
 ## Run - (Development)
 ```bash
-npm run dev 
+$ npm start
 ```
 
-## Run - (Production)
-```bash
-npm start
+**Output**
 
+```bash
 Compiled successfully!
 
 You can now view my-app in the browser.
@@ -38,4 +37,27 @@ Note that the development build is not optimized.
 To create a production build, use npm run build.
 
 webpack compiled successfully
+```
+
+## Run - (Production)
+```bash
+$ npm run build
+$ serve -s build
+```
+**Output**
+```bash
+
+   ┌──────────────────────────────────────────┐
+   │                                          │
+   │   Serving!                               │
+   │                                          │
+   │   - Local:    http://localhost:3000      │
+   │   - Network:  http://xxx.xxx.x.xx:3000   │
+   │                                          │
+   │   Copied local address to clipboard!     │
+   │                                          │
+   └──────────────────────────────────────────┘
+
+ HTTP  mm/dd/YYYY HH:MM:SS PM xxx.xxx.x.xx GET /ws
+ HTTP  mm/dd/YYYY HH:MM:SS PM xxx.xxx.x.xx Returned 200 in xx ms
 ```
